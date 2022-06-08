@@ -12,11 +12,13 @@
 </head>
 <body>
   <div class="site-wrapper">
+    <!-- SITE-HEADER -->
     <header class="site-header">
       <div class="site-header__container container">
         <a class="site-header__icon" href="index.html">
           <img src="./img/sneakers.svg" alt="sneakers" width="138" height="20">
         </a>
+        <!-- SITENAV -->
           <nav class="sitenav">
             <ul class="sitenav__list">
               <li class="sitenav__item">
@@ -36,6 +38,7 @@
               </li>
             </ul>
           </nav>
+        <!-- /SITENAV -->
           <div class="site-header__card">
             <a class="site-header__card-link" href="#">
               <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -49,6 +52,63 @@
         </a>
       </div>
     </header>
+    <!-- /SITE-HEADER -->
+
+    <!-- MAIN -->
+    <main class="main-content">
+      <section class="hero">
+        <div class="hero__container contain">
+          <div class="hero__img-wrapper">
+            <img src="./img/sheoes-twos.jpg" alt="shoes" width="445" height="445" srcset="./img/sheoes-twos.jpg 1x , ./img/sheoes-twos@2x.jpg 2x">
+            <ul class="hero__list">
+              <li class="hero__item">
+                <a class="hero__link" href="#">
+                  <img src="./img/shoes-one-stone.jpg" alt="buy-shoes" width="88" height="88" srcset="./img/shoes-one-stone.jpg 1x, ./img/shoes-one-stone@2x.jpg 2x">
+                </a>
+              </li>
+              <li class="hero__item">
+                <a class="hero__link" href="#">
+                  <img src="./img/shoes-two.jpg" alt="buy-shoes" width="88" height="88" srcset="./img/shoes-two.jpg 1x , ./img/shoes-two@2x.jpg 2x" >
+                </a>
+              </li>
+              <li class="hero__item">
+                <a class="hero__link" href="#">
+                  <img src="./img/shoes-one.jpg" alt="buy-shoes" width="88" height="88" srcset="./img/shoes-one.jpg 1x, ./img/shoes-one@2x.jpg 2x">
+                </a>
+              </li>
+              <li class="hero__item">
+                <a class="hero__link" href="#">
+                  <img src="./img/shoes-one-stone.jpg" alt="buy-shoes" width="88" height="88" srcset="./img/shoes-one-stone.jpg 1x, ./img/shoes-one-stone@2x.jpg 2x">
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero__content">
+            <p class="hero__content-top-text">Sneaker Company</p>
+            <h2 class="hero__content-title">Fall Limited Edition Sneakers</h2>
+            <p class="hero__content-text">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+            <div class="hero__content-price-wrapper">
+              <span class="hero__content-price">$125.00</span>
+              <span class="hero__content-discount">50%</span>
+            </div>
+            <p class="hero__content-price-text">$250.00</p>
+            <div class="hero__content-product-purchase product-purchase">
+              <div class="product-purchase__wrapper">
+                <button class="product-purchase__reduce" type="button">-</button>
+                <span class="product-purchase__number">0</span>
+                <button class="product-purchase__add" type="button">+</button>
+              </div>
+              <div class="hero__content-product-purchase-link-wrapper">
+                <img class="hero__content-product-purchase-img" src="./img/shopping-cart.svg" alt="" width="18" height="16">
+                <a class="hero__content-product-purchase-link" href="#">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- /MAIN -->
   </div>
 </body>
 </html>
