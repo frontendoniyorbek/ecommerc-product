@@ -212,7 +212,7 @@ select:-webkit-autofill:focus {
     opacity: 0.6;
 }
 
-.site-header__card-button {
+.site-header__profil-link {
     display: flex;
     width: 50px;
     height: 50px;
@@ -222,15 +222,15 @@ select:-webkit-autofill:focus {
     cursor: pointer;
 }
 
-.site-header__card-button:hover {
+.site-header__profil-link:hover {
     border: 2px solid var(--accent-color);
 }
 
-.site-header__card-button:active {
+.site-header__profil-link:active {
     opacity: 0.6;
 }
 
-.site-header__card-button-img {
+.site-header__profil-avatar {
     width: 50px;
     height: 50px;
 }
