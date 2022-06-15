@@ -1,7 +1,10 @@
 :root {
-    --gold-color:#ff7e1b;
-    --black-color:#1d2026;
+    --accent-color:#ff7e1b;
+    --accent-color-light:#ffeee2;
+    --accent-color-hover:#ffab6a;
+    --text-color-dark:#1d2026;
     --text-color:#69707d;
+    --light-bg:#f6f8fd;
 }
 
 /* GOOGLE-FONTS */
@@ -39,7 +42,7 @@ html{
 }
 
 *:focus {
-    outline: 2px dashed var(--gold-color);
+    outline: 2px dashed var(--accent-color);
 }
 
 body{
@@ -173,7 +176,7 @@ select:-webkit-autofill:focus {
 }
 
 .sitenav__link:hover {
-    color: var(--black-color);
+    color: var(--text-color-dark);
 }
 
 .sitenav__link::after {
@@ -183,12 +186,12 @@ select:-webkit-autofill:focus {
     bottom: 0;
     width: 100%;
     height: 4px;
-    color: var(--gold-color);
+    color: var(--accent-color);
     content: "";
 }
 
 .sitenav__link:hover::after {
-    background-color: var(--gold-color);
+    background-color: var(--accent-color);
 }
 
 .sitenav__link:active {
@@ -204,7 +207,7 @@ select:-webkit-autofill:focus {
 }
 
 .site-header__card-link:hover {
-    color: var(--black-color);
+    color: var(--text-color-dark);
 }
 
 .site-header__card-link:active {
@@ -212,13 +215,17 @@ select:-webkit-autofill:focus {
 }
 
 .site-header__card-button {
+    width: 50px;
+    height: 50px;
     border: 2px solid transparent;
     cursor: pointer;
 }
 
 .site-header__card-button:hover {
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    border: 2px solid var(--gold-color);
+    border: 2px solid var(--accent-color);
 }
 
 .site-header__card-button:active {
