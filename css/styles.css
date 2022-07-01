@@ -482,8 +482,27 @@ select:-webkit-autofill:focus {
     display: flex;
     padding: 0;
     margin: 0;
+    padding-bottom: 40px;
     list-style: none;
     overflow: auto;
+
+        /* Foreground, Background */
+        scrollbar-color: var(--accent-color) var(--divider-bg);
+}
+
+.img-showcase__thumbnails::-webkit-scrollbar {
+    width: 10px; /* Mostly for vertical scrollbars */
+    height: 10px; /* Mostly for horizontal scrollbars */
+}
+
+  .img-showcase__thumbnails::-webkit-scrollbar-thumb { /* Foreground */
+    border-radius: 5px;
+    background: var(--accent-color);
+}
+
+  .img-showcase__thumbnails::-webkit-scrollbar-track { /* Background */
+    border-radius: 5px;
+    background: var(--divider-bg);
 }
 
 .img-showcase__thumbnail {
